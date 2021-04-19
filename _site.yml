@@ -1,12 +1,26 @@
 name: "."
-title: "My page"
+base_url: https://github.com/halizarraga
+collections:
+  posts:
+    categories: true
+    categories_metadada: true
+    authors_metadata: true
+    share: [twitter, linkedin]
+    citations: false
+title: "My webpage / mi página web"
 description: |
-  My page
+  Esta es mi página web / This is my webpage
 output_dir: "docs"
 navbar:
   right:
     - text: "Home"
+      icon: fa-home
       href: index.html
     - text: "About"
       href: about.html
+    - text: "CV"      # add
+      href: blog.html
+    - icon: fa fa-github
+      href: https://github.com/halizarraga
 output: distill::distill_article
+theme: postcards.css

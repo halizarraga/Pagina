@@ -2,20 +2,26 @@
   "articles": [
     {
       "path": "about.html",
-      "title": "About this site",
-      "description": "Some additional details about the website",
+      "title": "Acerca de éste sitio / About this site",
+      "description": "Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!",
       "author": [],
       "contents": "\n\n\n\n",
-      "last_modified": "2021-04-19T13:06:18-05:00"
+      "last_modified": "2021-04-19T13:43:50-05:00"
+    },
+    {
+      "path": "blog.html",
+      "title": "CV",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-04-19T13:51:30-05:00"
     },
     {
       "path": "index.html",
-      "title": "My page",
-      "description": "Welcome to the website. I hope you enjoy it!\n",
+      "title": "Héctor A. Lizárraga Cubedo",
       "author": [],
-      "contents": "\n\n\n\n",
-      "last_modified": "2021-04-19T13:06:19-05:00"
+      "contents": "\n\n          \n          \n          My webpage / mi página web\n          \n          \n          \n          \n          \n          About\n          CV\n          \n          \n          \n          ☰\n          \n          \n      \n        \n          \n            Héctor A. Lizárraga Cubedo\n          \n          \n            \n              Soy Oceanólogo con interés en la estadística multivariada y R. Pesquerías, acuicultura, áreas protegidas, cambio climático y biodiversidad. El rey de los deportes, 3 x 3 y otros detalles.\n              I am an Oceanographer interested in multivariate statistics and R. Fisheries, aquaculture, protected areas, climate change and biodiversity. King of sports, 3 times 3 and other details.\n            \n            \n              Soy Oceanólogo con interés en la estadística multivariada y R. Pesquerías, acuicultura, áreas protegidas, cambio climático y biodiversidad. El rey de los deportes, 3 x 3 y otros detalles.\n              I am an Oceanographer interested in multivariate statistics and R. Fisheries, aquaculture, protected areas, climate change and biodiversity. King of sports, 3 times 3 and other details.\n            \n          \n\n          \n            \n              \n                  \n                    \n                      LinkedIn\n                    \n                  \n                \n                                \n                  \n                    \n                      Twitter\n                    \n                  \n                \n                                \n                  \n                    \n                      GitHub\n                    \n                  \n                \n                                \n                  \n                    \n                      Email\n                    \n                  \n                \n                              \n          \n\n          \n            \n              \n                                \n                  \n                    LinkedIn\n                  \n                \n                                \n                  \n                    Twitter\n                  \n                \n                                \n                  \n                    GitHub\n                  \n                \n                                \n                  \n                    Email\n                  \n                \n                              \n            \n          \n        \n      \n    \n\n    \n    \n    ",
+      "last_modified": "2021-04-19T13:52:04-05:00"
     }
   ],
-  "collections": []
+  "collections": ["posts/posts.json"]
 }

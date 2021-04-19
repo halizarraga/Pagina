@@ -1,7 +1,7 @@
 ---
-title: "About this site"
+title: "Acerca de éste sitio / About this site"
 description: |
-  Some additional details about the website
+  Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!
 ---
 
 ```{r setup, include=FALSE}

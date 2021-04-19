@@ -1,18 +1,20 @@
 ---
-title: "My page"
-description: |
-  Welcome to the website. I hope you enjoy it!
+title: "Héctor A. Lizárraga Cubedo"
+image: "Hector.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/hector-lizarraga-6093a070"
+  - label: Twitter
+    url: "https://www.twitter.com/halizarraga"
+  - label: GitHub
+    url: "https://github.com/halizarraga"
+  - label: Email
+    url: "mailto:director@ceakumal.org"
 site: distill::distill_website
+output:
+  postcards::jolla
 ---
+ 
+Soy Oceanólogo con interés en la estadística multivariada y R. Pesquerías, acuicultura, áreas protegidas, cambio climático y biodiversidad. El rey de los deportes, 3 x 3 y otros detalles.
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-
-# Learn more about creating websites with Distill at:
-# https://rstudio.github.io/distill/website.html
-
-# Learn more about publishing to GitHub Pages at:
-# https://rstudio.github.io/distill/publish_website.html#github-pages
-
-```
-
+I am an Oceanographer interested in multivariate statistics and R. Fisheries, aquaculture, protected areas, climate change and biodiversity.  King of sports, 3 times 3 and other details.

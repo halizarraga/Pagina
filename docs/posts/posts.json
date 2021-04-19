@@ -1,0 +1,19 @@
+[
+  {
+    "path": "posts/2021-04-19-welcome/",
+    "title": "Bienvenido / Welcome",
+    "description": "Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!",
+    "author": [
+      {
+        "name": "Hector Lizarraga",
+        "url": {}
+      }
+    ],
+    "date": "2021-04-19",
+    "categories": [],
+    "contents": "\nDistill is a publication format for scientific and technical writing, native to the web.\nLearn more about using Distill at https://rstudio.github.io/distill.\n\n\n\n",
+    "preview": {},
+    "last_modified": "2021-04-19T13:51:30-05:00",
+    "input_file": {}
+  }
+]
