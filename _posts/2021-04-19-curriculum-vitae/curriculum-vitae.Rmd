@@ -1,0 +1,238 @@
+---
+title: "Curriculum vitae"
+image: "Hector.jpg"
+description: |
+  Ficha curricular general / General Curriculum vitae
+author:
+  - name: Hector Lizarraga
+    url:
+      https://www.researchgate.net/profile/Hector-Lizarraga: {}
+date: 04-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+>Doctor en Filosofía de Zoología (Dr)-2004, 
+Maestro en Ciencias- Ciencias Marinas y Pesqueras (M. en C.)-1999, Oceanólogo (Ocean.) 1994
+
+Director Ejecutivo de Centro Ukana I Akumal, A.C. (Centro Ecológico Akumal).
+[Centro Ecológico Akumal](http://www.ceakumal.org; twitter@ceakumal)
+km 104, carr. Puerto Juárez-Tulum, Akumal, Q. Roo.
+director@ceakumal.org; halizarraga@yahoo.com
+
+
+
+**Fecha de nacimiento**: 1ro de Agosto de 1970.
+Lugar de nacimiento: Ciudad de México.
+
+Nacionalidad: Mexicana.
+
+Domicilio actual y de correspondencia: Petcacab, L-19, Mna-191, Col. Solidaridad. CHETUMAL, Quintana Roo, México. C.P. 77086.
+
+CURP: LICH700801HDFZBC07
+
+CÉDULA PROFESIONAL: 2708077
+
+
+
+### EDUCACIÓN
+
+Doctorado: (1999-2004) University of Aberdeen, Aberdeen, UK and FRS, Marine Laboratory, Aberdeen.
+
+Maestría: (1998-99) University of Aberdeen, Aberdeen, UK.
+
+Licenciatura: (1988-93) Facultad de Ciencias Marinas, UABC, Ensenada, B.C. 
+
+
+
+### REGISTROS Y DISTINCIONES
+
+  - Becario CONACYT: 117863 con beca para estudios de maestría y doctorado, 1998-2003.
+
+  - Registro de Curriculum Vitae Único (CVU) CONACYT: 202726.
+
+  - Registro Nacional de Instituciones y Empresas Científicas y Tecnológicas (RENIECYT): 2009/10190. Para evaluar proyectos en Quintana Roo y a nivel nacional.
+
+  - Registro CONACYT de Evaluadores Acreditados (RCEA): RCEA-02-00170-2009.
+Integrante del Comité de Expertos del Sistema Estatal de Investigadores, en Quintana Roo (2009, 2010, 2011, 2,012, 2014, 2016).
+Becario de la Agencia de Cooperación Internacional Japonesa (JICA): Septiembre 2009. 
+
+  - Miembro fundador del Consejo Académico del Instituto de Administración Pública de Quintana Roo (IAPQROO): 2008-presente.
+
+  - Miembro de la Red Mexicana de Cuencas Hidrográficas: 2016-presente.
+
+  - Miembro de la Red de Agua para la Sustentabilidad de la Península de Yucatán: 2017-presente.
+
+  - Consejero del Comité Técnico Asesor para la Atención al Sargazo: 2018.
+
+
+
+### EXPERIENCIA LABORAL
+
+  - Director Ejecutivo del Centro Ukana I Akumal, A.C. (Centro Ecológico Akumal). Organización No Gubernamental Sin Fines de Lucro. AKUMAL, México. Febrero 2015-Actual.
+
+
+  - Jefe del Centro Regional de Investigación Pesquera (CRIP) en Ciudad del Carmen, Campeche, México del INAPESCA. Gobierno Federal. CIUDAD DEL CARMEN, México. Julio 2014-Febrero 2015.
+
+
+  - Director de Inspección y Vigilancia Ambiental en la Procuraduría de Protección al Ambiente. Gobierno del Estado de Quintana Roo. CHETUMAL, México. Mayo 2014-Julio 2014.
+
+
+  - Director de Biodiversidad y Áreas Naturales en la Secretaría de Ecología y Medio Ambiente. Gobierno del Estado de Quintana Roo. CHETUMAL, México. Mayo 2011-Mayo 2014.
+
+
+  - Director de Medio Ambiente en la Secretaría de Desarrollo Urbano y Medio Ambiente. Gobierno del Estado de Quintana Roo. CHETUMAL, México. Mayo 2006-Abril 2011.
+
+
+  - Consultor privado sobre asuntos “Pesqueros y Acuícolas” en Quintana Roo. CHETUMAL, México. 2005-2006.
+
+
+  - Estudios sobre “El comportamiento de mamíferos marinos (delfín nariz de botella y manatíes) y peces elasmobranquios (rayas y tiburones)”. Dolphin Discovery: CANCUN, México. 2004-2005. 
+
+
+  - Supervisor de Control de Calidad en CISSA, Congeladora Internacional de Sinaloa, planta procesadora de camarón. LOS MOCHIS, México. Mayo 1997 a Mayo 1998.
+
+
+  - Técnico acuicultor en Acuícola El Patagón, S.A. de C.V. CULIACAN, México. Septiembre 1996 a Mayo 1997.
+
+
+  - Técnico acuicultor en el programa “Acuacultura Rural”, SEMARNAP (Secretaria del Medio Ambiente, Recursos Naturales y Pesca). MEXICALI, México. Enero-Agosto 1996.
+
+
+  - Técnico asistente en el programa “Monografía de algas pardas en las costas de Baja California, México”. Instituto de Investigaciones Oceanológicas (IIO) y Universidad Autónoma de Baja California (UABC). ENSENADA, México. Enero-Diciembre 1995.
+
+
+### PARTICIPACIONES
+
+**Ponencias Internacionales**:
+  - 2 en 2014, Cancún, México; 
+    3 en 2005, Aberdeen, Reino Unido;  
+    2 en 2002, La Habana, Cuba; 
+    2 en 2001 en A Coruña, España; 
+    1 en 1994, Ensenada, México.
+
+
+**Ponencias Nacionales**:
+
+  - 2 en 2010, Chetumal, Q. Roo; 
+    2 en 2009, Chetumal, Q. Roo; 
+    1 en 2008, Cancún, Q. Roo; 
+    1 en 2007, Chetumal, Q. Roo; 
+    2 en 1995, México, D.F.; 
+    1 en 1994, La Paz, B.C.S.
+
+
+**Talleres-Reuniones-Eventos Internacionales**:
+
+  - 1 en 2014, Cancún, México; 
+    1 en 2010, Cancún, México; 
+    1 en 2009, Tsukuba, Japón; 
+    1 en 2008, Tulum, México.
+
+
+En el marco de la celebración de las actividades alternas a la Conferencia de las Partes, COP-16 organizada en Cancún, Diciembre 2010, coadyuvé como enlace entre el Gobierno del Estado-SEDUMA y The Climate Group, ver link:
+(http://www.flickr.com/photos/theclimategroup/5247190224/in/set-72157625438430255/; https://www.flickr.com/photos/theclimategroup/5247190768/in/album-72157625438430255/).
+
+
+**Talleres-Reuniones-Eventos Nacionales**:
+
+  - 1 en 2011, Ensenada, B.C.; 
+    3 en 2010 (Ixtapa-Zihuatanejo, Jal., Campeche, Camp., Chetumal, Q. Roo.); 
+    6 en 2009 (Cancún, Q. Roo, 
+    2-Mérida, Yuc., 2-Chetumal, Q. Roo, Felipe Carrillo Puerto, Q. Roo); 
+    1 en 2008, Xcaret, Q. Roo; 
+    3 en 2007 (2-Chetumal, Q. Roo, Playa del Carmen, Q. Roo); 
+    1 en 2006, Xcaret, Q. Roo; 
+    1 en 1997, Culiacán, Sin.
+
+
+**Cursos (Diplomado)**:
+
+  - 4 en 2010, en Cambio Climático organizado por el Instituto Nacional de Ecología, la Embajada Británica en México y el Centro de Análisis y Diálogo sobre América del Norte (CEDAN) del Tecnológico de Monterrey Campus Monterrey, Nuevo León.
+
+
+### RESPONSABLE TÉCNICO Y ENLACE
+
+
+**Proyectos internacionales**:
+
+
+  - Responsable Técnico Proyecto REEF RESCUE.MX-002-2017 “Organización de la reunión bienal 2017 de la Red de Restauración de Arrecifes (Reef Restoration Network), para compartir experiencias y metodologías en la región del SAM y en Centroamérica. Iniciativa Mesoamericana de Rescate de Arrecfes”. Con recursos de MAR Fund para el período del julio-diciembre. 
+
+
+  - Responsable Técnico Proyecto 2014-2018. Área Protegida Marino Costera Reserva Estatal Santuario del Manatí con recursos del Fondo SAM, agencia alemana KfW-MARFUND. 
+
+
+**Proyectos Nacionales**: 
+
+  - Responsable Técnico Proyecto PEF 2012, Anexo 36. Segunda fase de la Restauración Ecológica de la Laguna Bojórquez, Benito Juárez, Quintana Roo. 
+  
+
+  - Responsable Técnico Proyecto PEF 2012, Anexo 36. Centro de Operación y Vigilancia del Área Natural Protegida Estatal, Santuario de la Tortuga Marina, X’cacel-X’cacelito, municipio de Tulum. 
+
+
+  - Responsable Técnico Proyecto PEF 2011, Anexo 33. Restauración Ecológica de la Laguna Bojórquez, Benito Juárez, Quintana Roo. 
+
+
+  - Responsable Técnico Proyecto PEF 2010, Anexo 31. Centro de Atención y Rehabilitación de Mamíferos Acuáticos (CARMA), Laguna Guerrero, Quintana Roo. 
+
+
+  - Director Técnico responsable del proyecto FOMIX “Estudio para determinar las áreas y especies marinas con potencial para implementar el desarrollo de maricultivos en Quintana Roo”. Clave QROO-2005-01-18883. De Octubre 2006-Abril 2010.
+
+
+**Evaluador**: 
+
+  - Reconocimiento por Evaluación de cuatro Proyectos del Fondo de Estímulos a la Investigación, Desarrollo de Tecnología e Innovación 2009, 2010.
+
+
+**Reconocimiento**: 
+
+  - Registro CONACYT de Evaluadores Acreditados (RCEA): RCEA-02-00170-2009.
+Como MODERADOR durante la sesión de Ecología Marina del X Simposium Internacional de Biología Marina” Ensenada, B.C., México del 13 al 17/Jun/1994.
+
+
+**Colaboraciones especiales**:
+
+  - Coordinador de la Agenda Ecológica, de la [Agenda para el Desarrollo Sustentable de Tulum, febrero 2021](https://halizarraga.github.io/Agenda-Website/)
+  
+  
+  
+## PUBLICACIONES CIENTÍFICAS
+
+
+  - Evaluador de tres artículos científicos sometido a la revista Hidrobiology en 2016 y 2018 y en Ocean and Coastal Management en 2020 y 2021
+
+  - 3 artículos científicos en 2020 (Scientific Reports), 
+    2015 (ICES Journal) y 
+    2003 (Fisheries Research).
+
+  - 1 capítulo de libro en 2008 (Mente E. (Ed) Science Publishers, USA). 
+
+  - 1 capítulo de libro en 2018 (FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C.)
+
+
+## MANEJO DE PROGRAMAS
+
+
+  - Paquetería Windows, SURFER v7, SPSS v9-11, Minitab, RStudio R y Brodgar (www.brodgar.com) para estadística avanzada.
+  
+  - R packages más utilizados:
+      tidyverse; dplyr; ggplot2; distill; rmarkdown; sf; sp; calendR; cowplot;
+      data.table; gridExtra; hexSticker; kableExtra; knitr; lattice; magic;
+      pagedown; twitteR; yaml
+
+
+
+## IDIOMAS
+
+> Castellano, Inglés.
+
+
+
+

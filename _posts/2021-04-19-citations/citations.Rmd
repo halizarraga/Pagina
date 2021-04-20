@@ -1,0 +1,103 @@
+---
+title: "Citations"
+description: |
+  A short description of the citations to the articles I´ve participated in / Se presentan las citas bibliográficas de los artículos en los que he participado..
+author:
+  - name: Hector Lizarraga
+    url: {"https://www.researchgate.net/profile/Hector-Lizarraga"}
+date: 04-19-2021
+output:
+  distill::distill_article:
+    self_contained: false
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+
+# First-author:
+
+
+
+## **H.A. Lizárraga-Cubedo**, I. Tuck, N. Bailey, G.J. Pierce, J.A.M. Kinnear. "Comparisons of size at maturity and fecundity of two Scottish populations of the European lobster, *Homarus gammarus*". Fisheries Research, Volume 65, Issues 1–3, 2003, Pages 137-152.
+ISSN 0165-7836,
+https://doi.org/10.1016/j.fishres.2003.09.012.
+(https://www.sciencedirect.com/science/article/pii/S0165783603002406)
+
+This article has been reached **57** citations; **77** reads. [Research Gate 1](https://www.researchgate.net/publication/253570958_Comparisons_of_size_at_maturity_and_fecundity_of_two_Scottish_populations_of_the_European_lobster_Homarus_gammarus/citations).
+
+
+**Abstract**: Sampling of Homarus gammarus on commercial boats and regular visits to local ports were carried out during 1999–2001 for the Firth of Forth and Hebrides fisheries. Biological data on size, sex, morphometric measurements and egg samples were collected. Size at the onset of sexual maturity (SOM), fecundity and egg development were compared between populations. Techniques that require transformed (Logarithm base e) or untransformed morphometric data, were applied to the data. Lobsters from the Firth of Forth had smaller SOM (♂=80mm carapace length (CL) and ♀=79mm CL) than those from the Hebrides (♂=98 and ♀=110mm CL). Fecundity (x̄=8154 eggs) for the Firth of Forth was lower than for the Hebrides (x̄=14238 eggs). ANCOVA showed no significant differences in the size–fecundity relationship between locations (F1,1=2.62,P>0.05) for lobsters with eggs in which the eye spot index (ESI) was between 0.29 and 0.54, using CL and ESI as co-variates. The reliability of the methods and the resulting estimates are discussed.
+Keywords: Size at maturity; Fecundity; Morphometrics; Homarus gammarus
+
+
+
+## **H. A. Lizárraga-Cubedo**, I. Tuck, N. Bailey, G. J. Pierce, A. F. Zuur, D. Bova. "Scottish lobster fisheries and environmental variability". ICES Journal of Marine Science, Volume 72, Issue suppl_1, July 2015, Pages i211–i224.
+https://doi.org/10.1093/icesjms/fsu248
+
+Citation:
+This article has been reached **5** citations; **185** reads.
+[Research Gate 2](https://www.researchgate.net/publication/275971151_Scottish_lobster_fisheries_and_environmental_variability/stats).
+
+**Abstract**
+Variability in the fluctuations of two Scottish lobster populations, the Hebrides and Southeast, was investigated from available long dataseries of fishery and environmental variables. In a multivariate context, relationships between selected environmental variables and the fishery data were studied at different spatial and temporal (annual, spring, and autumn) scales and from individual and overall sampled fleet. Multivariate techniques such as cross-correlation function, principal components analysis, and redundancy analysis confirmed that the capture of lobsters was strongly influenced by sea surface temperature, windspeed, and sea level pressure throughout the year, and this dependence affected the duration of the fishery. There were evident differences in the patterns of environmental variables for both regions. In the Hebrides, the total variation (42%) of the interaction fishery-environmental variables for spring and autumn fisheries could be attributed to the environmental variables in an 89%. For the Southeast, spring fishery was more affected by changes in the environment, with a total variation of 34%, from which 85% could be explained by the environmental variables tested, than autumn fishery where catches and catch rates may be more affected by the way individual vessel and sampled fleet operate. Two elements were identified, Hebrides and Southeast spring and autumn fisheries. The Hebrides lobster population is strongly influenced by density-independence processes at all spatial scales. The Southeast fishery is also driven by environmental processes, with higher correlations for recruits with differences at small and large spatial scales.
+
+
+
+
+## **H.A. Lizárraga-Cubedo**, G.J. Pierce, M.B. Santos. "Reproduction of Crustaceans in Relation to Fisheries". In Book "Reproductive Biology of Crustaceans". Ed. E. Mente. Edition 1st Edition, First Published 2008. Imprint CRC Press. Pages 54.
+eBook ISBN 9780429063961.
+
+
+**Abstract**
+The effects of fishery processes on the reproduction of commercially exploited crustaceans are complex. The population responses to exploitation can be manifested in changes in the reproductive biology, with implications for the fisheries in the short and long term. The high historical exploitation of the American lobster in the United States and Canada has forced the vigilant application and careful selection of management strategies and regulations. Establishment of particular geographic areas for lobster exploitation in Canadian waters, such as Lobster Fishing Areas, allows close monitoring of lobster populations, aimed at revealing the effects of established management strategies and regulations. Successful implementation of management regulations must in general follow the principles of conservation, aiming at achieving the sustainability of the resource. Fisheries regulations are mostly based on size limits with the aim to protect immature individuals from exploitation and to ensure an adequate number of reproductively active animals to support the total reproductive output, or egg production, of the population.
+
+
+
+# Co-author:
+
+
+## González, J.M., Anastácio, R., **Lizárraga-Cubedo, H.A.** et al. "*Caretta caretta* nesting activity on Akumal Beaches, Mexico." Sci Rep 10, 3020 (2020).
+https://doi.org/10.1038/s41598-020-60018-1
+
+This article has been reached **0** citations; **131** reads.
+[[Research Gate 3](https://www.researchgate.net/publication/339382302_Caretta_caretta_nesting_activity_on_Akumal_Beaches_Mexico).
+
+
+Abstract
+Mexico has made substantial contributions to marine turtle protection and conservation, especially since 1990. Several conservation projects entail monitoring efforts to recover nesting territories for marine turtles. The Sea Turtle Protection Program of Akumal, in the Mexican state of Quintana Roo, was created in 1993 and was developed by the Akumal Ecological Center. This paper provides the nesting ecology parameters for Caretta caretta over a protection period of 24 years (1995–2018). A well-defined nesting peak was observed in June, with a nesting success rate of 75.2 ± 23.0%. Nesting females showed a mean curved carapace length of 99.0 ± 5.6  cm. The mean clutch size was 108.6 ± 24.6 eggs, with variation among years. The mean incubation period was 57.2 ± 6.2 days. The hatching and emergence success rates were 87.2 ± 16.9% and 78.8 ± 24.4%, respectively. For the 926 tagged females that returned, the remigration interval peaked at 726 days, with a 12-day inter-nesting period. The results show not only the recovery of the nesting population over time but also a decrease in female size; we postulate that this decrease is due to the recruitment of young females, which has been increasingly pronounced since 2010. Hence, the Akumal rookery plays an important role in its corresponding regional management unit (Atlantic Northwest).
+
+
+
+
+# Other ICES Council Meeting papers:
+
+https://nmbl.org/cgi-bin/koha/opac-search.pl?q=an:%22103676%22
+
+
+## **Lizarraga-Cubedo, H.A**, Tuck, I, Bailey, N, Pierce, G.J, Zuur, A.F. "Common trends in two populations of the European lobster, *Homarus gammarus*, in Scottish waters".
+Source: ICES Council Meeting Papers
+Material type: computer file Computer file; Format: electronic
+Publisher: 2005
+
+
+## **Lizarraga-Cubedo, H.A**, Tuck, I, Bailey, N, Pierce, G.J, Zuur, A.F, Bova, D. "Environmentally caused variability in the fluctuations of the European lobster, *Homarus gammarus*, fishery in Scottish coasts".
+Source: ICES Council Meeting Papers
+Material type: computer file Computer file; Format: electronic
+Publisher: 2005
+
+
+
+# Capítulo de libros, Español:
+
+
+
+## **Lizárraga Cubedo, Héctor Antonio**. "RECURSOS NATURALES Y BIODIVERSIDADA. Su protección y formas de participación, Esquemas  de  Conservación,  Protección  y  Aprovechamiento  de  los  Recursos  Naturales  de  Quintana Roo y la Participación Social", p. 41. 
+En: ESTUDIO SOBRE MEDIO AMBIENTE Y DESARROLLO SUSTENTABLE Desde una Perspectiva de Género. Rodolfo vega Hernández (Coord.).  FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C., Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México, PAOTProcuraduría Estatal de Protección al Medio Ambiente y Desarrollo Urbano de Querétaro, PEPMADUQGrupo Ecotech. 2018 
+
+This article has been reached **0** citations; **148** reads.
+[Research Gate 4](https://www.researchgate.net/publication/323616888_Responsabilidad_ambiental_bajo_la_optica_de_la_equidad_sustantiva_de_genero/stats).
+
+

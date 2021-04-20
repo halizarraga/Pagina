@@ -1,5 +1,5 @@
 name: "."
-base_url: https://github.com/halizarraga
+base_url: https://halizarraga.github.io/Pagina/
 collections:
   posts:
     categories: true
@@ -7,18 +7,22 @@ collections:
     authors_metadata: true
     share: [twitter, linkedin]
     citations: false
-title: "My webpage / mi página web"
+title: "Webpage"
 description: |
   Esta es mi página web / This is my webpage
 output_dir: "docs"
 navbar:
+  logo: 
+    image: images/rstudio.png
   right:
     - text: "Home"
       icon: fa-home
-      href: index.html
+    - icon: fa fa-rss
+      href: index.xml
     - text: "About"
+      icon: fa-info
       href: about.html
-    - text: "CV"      # add
+    - text: "CV"     
       href: blog.html
     - icon: fa fa-github
       href: https://github.com/halizarraga

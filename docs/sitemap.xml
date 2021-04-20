@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" version="1.0">
   <url>
-    <loc>https://github.com/halizarraga/about.html</loc>
+    <loc>https://halizarraga.github.io/Pagina/about.html</loc>
     <lastmod>2021-04-19T13:41:32-05:00</lastmod>
   </url>
   <url>
-    <loc>https://github.com/halizarraga/blog.html</loc>
-    <lastmod>2021-04-19T13:50:24-05:00</lastmod>
+    <loc>https://halizarraga.github.io/Pagina/blog.html</loc>
+    <lastmod>2021-04-19T14:38:53-05:00</lastmod>
   </url>
   <url>
-    <loc>https://github.com/halizarraga/</loc>
-    <lastmod>2021-04-19T13:31:03-05:00</lastmod>
+    <loc>https://halizarraga.github.io/Pagina/</loc>
+    <lastmod>2021-04-19T15:49:12-05:00</lastmod>
   </url>
   <url>
-    <loc>https://github.com/halizarraga/posts/2021-04-19-welcome/</loc>
+    <loc>https://halizarraga.github.io/Pagina/posts/2021-04-19-citations/</loc>
+    <lastmod>2021-04-19T21:03:38-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/</loc>
+    <lastmod>2021-04-19T21:03:53-05:00</lastmod>
+  </url>
+  <url>
+    <loc>https://halizarraga.github.io/Pagina/posts/2021-04-19-welcome/</loc>
     <lastmod>2021-04-19T13:51:30-05:00</lastmod>
   </url>
 </urlset>
