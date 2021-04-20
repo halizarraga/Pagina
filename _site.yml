@@ -2,7 +2,7 @@ name: "."
 base_url: https://halizarraga.github.io/Pagina/
 collections:
   posts:
-    categories: false
+    categories: true
     categories_metadada: false
     authors_metadata: false
     share: [twitter, linkedin]
@@ -22,15 +22,17 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
+    - icon: ai ai-cv
+      href: blog.html
     - text: "CV"
       href: blog.html
       menu: 
-          - text: "Citations"
-            href: citations.html
-          - text: "Curriculum Vitae Español"
-            href: curriculum-vitae.html
-          - text: "Welcome"
-            href: welcome.html
+        - text: "Citations"
+          href: citations.html
+        - text: "Curriculum Vitae Español"
+          href: curriculum-vitae.html
+        - text: "Welcome"
+          href: welcome.html
     - icon: fab fa-github
       href: https://github.com/halizarraga
     - icon: fab fa-twitter
