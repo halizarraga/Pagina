@@ -1,8 +1,8 @@
 ---
-title: "Curriculum vitae"
+title: "Curriculum vitae Español"
 image: "Hector.jpg"
 description: |
-  Ficha curricular general / General Curriculum vitae
+  Ficha curricular general
 author:
   - name: Hector Lizarraga
     url:
@@ -32,8 +32,6 @@ director@ceakumal.org; halizarraga@yahoo.com
 Lugar de nacimiento: Ciudad de México.
 
 Nacionalidad: Mexicana.
-
-Domicilio actual y de correspondencia: Petcacab, L-19, Mna-191, Col. Solidaridad. CHETUMAL, Quintana Roo, México. C.P. 77086.
 
 CURP: LICH700801HDFZBC07
 

@@ -85,9 +85,9 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Webpage: Curriculum vitae</title>
+<title>Tervetuloa: Curriculum vitae Español</title>
 
-<meta property="description" itemprop="description" content="Ficha curricular general / General Curriculum vitae"/>
+<meta property="description" itemprop="description" content="Ficha curricular general"/>
 
 <link rel="canonical" href="https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/"/>
 
@@ -97,24 +97,24 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="Hector Lizarraga"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Webpage: Curriculum vitae"/>
+<meta property="og:title" content="Tervetuloa: Curriculum vitae Español"/>
 <meta property="og:type" content="article"/>
-<meta property="og:description" content="Ficha curricular general / General Curriculum vitae"/>
+<meta property="og:description" content="Ficha curricular general"/>
 <meta property="og:url" content="https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Webpage"/>
+<meta property="og:site_name" content="Tervetuloa"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Webpage: Curriculum vitae"/>
-<meta property="twitter:description" content="Ficha curricular general / General Curriculum vitae"/>
+<meta property="twitter:title" content="Tervetuloa: Curriculum vitae Español"/>
+<meta property="twitter:description" content="Ficha curricular general"/>
 <meta property="twitter:url" content="https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/"/>
 
 <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
 <script type="text/json" id="radix-rmarkdown-metadata">
-{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","image","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum vitae"]},{"type":"character","attributes":{},"value":["Hector.jpg"]},{"type":"character","attributes":{},"value":["Ficha curricular general / General Curriculum vitae"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Hector Lizarraga"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://www.researchgate.net/profile/Hector-Lizarraga"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]},{"type":"character","attributes":{},"value":["04-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/"]}]}
+{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","image","description","author","date","output","canonical_url"]}},"value":[{"type":"character","attributes":{},"value":["Curriculum vitae Español"]},{"type":"character","attributes":{},"value":["Hector.jpg"]},{"type":"character","attributes":{},"value":["Ficha curricular general"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Hector Lizarraga"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["https://www.researchgate.net/profile/Hector-Lizarraga"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":[]}},"value":[]}]}]}]},{"type":"character","attributes":{},"value":["04-19-2021"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["https://halizarraga.github.io/Pagina/posts/2021-04-19-curriculum-vitae/"]}]}
 </script>
 <!--/radix_placeholder_rmarkdown_metadata-->
   
@@ -2138,6 +2138,7 @@ d-appendix {
 
 
 
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
@@ -2146,8 +2147,8 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #000000;
-  --header-color:    rgba(0, 0, 0, 0.8);
+  --title-color:     #138b63;
+  --header-color:    #138b63;
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2155,12 +2156,30 @@ html {
   --heading-font:    "Amiri", serif;
   --mono-font:       "DM Mono", monospace;
   --body-font:       "Bitter", sans-serif;
-  --navbar-font:     "Amiri", serif;
 }
+
+
+/* nav bar */
+
+.distill-site-nav {
+  color: #fff;
+  background-color: #333333;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.distill-site-nav a {
+  font-family: "Amiri", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #d9d9d9;
+}
+
 
 /*-- ARTICLE METADATA --*/
 d-byline {
-  --heading-size:    0.6rem;
+  --heading-size:    0.9rem;  /* edited */
   --heading-color:   rgba(0, 0, 0, 0.5);
   --body-size:       0.8rem;
   --body-color:      rgba(0, 0, 0, 0.8);
@@ -2169,7 +2188,8 @@ d-byline {
 /*-- ARTICLE TABLE OF CONTENTS --*/
 .d-contents {
   --heading-size:    18px;
-  --contents-size:   13px;
+  --contents-size:   15px;
+  --font-size:      35px;
 }
 
 /*-- ARTICLE APPENDIX --*/
@@ -2183,24 +2203,80 @@ d-appendix {
 /*-- WEBSITE HEADER + FOOTER --*/
 /* These properties only apply to Distill sites and blogs  */
 
+
+
+.distill-site-header .logo img {
+    display: block;
+    max-height: 25px;
+    width: auto;
+}
+
+.distill-site-header .title {
+    font-size: 25px;
+    min-width: 150px;
+    font-weight: 400;
+}
+
+
+/* https://codepen.io/sdthornton/pen/wBZdXq */
 .distill-site-header {
-  --title-size:       18px;
-  --text-color:       #4fe7db;
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #063006;
+  box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-family: 'Amiri', sans-serif;
+  color: #d9d9d9;
+  background-color: #fcfc39;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .distill-site-footer {
   --text-color:       #4fe7db;
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #063006;
+  --bkgd-color:       #e2e22b;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-</style>
+
+ul > li::marker {
+  color: #063006;
+}
+
+.distill-site-header { 
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-transform: uppercase;
+  --text-size: 35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.distill-site-header .logo img{
+  max-height: 50px; /* Makes logo bigger, default was 20px */
+}
+
+.distill-site-header .icon img{
+  max-height: 25px; /* Makes icons bigger, default was 20px */
+}
+
+.distill-site-header {
+  padding-top: 2rem;
+}
+
+d-title h1,
+d-article h2,
+.posts-list .description h2,
+.posts-list > h1 {
+    font-weight: 400;
+}
+
+d-appendix {
+  background-color: #e9fce9;
+  border-top: none;
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -2377,7 +2453,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Curriculum vitae","description":"Ficha curricular general / General Curriculum vitae","authors":[{"author":"Hector Lizarraga","authorURL":{"https://www.researchgate.net/profile/Hector-Lizarraga":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-04-19T00:00:00.000+00:00","citationText":"Lizarraga, 2021"}
+{"title":"Curriculum vitae Español","description":"Ficha curricular general","authors":[{"author":"Hector Lizarraga","authorURL":{"https://www.researchgate.net/profile/Hector-Lizarraga":{}},"affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2021-04-19T00:00:00.000+00:00","citationText":"Lizarraga, 2021"}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2385,25 +2461,36 @@ d-appendix d-footnote-list a.footnote-backlink {
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a class="logo">
-<img src="../../images/rstudio.png" alt="Logo"/>
+<a class="logo" href="http://ceakumal.org">
+<img src="../../LOGO CEA.png" alt="Logo"/>
 </a>
-<a href="../../index.html" class="title">Webpage</a>
+<a href="../../index.html" class="title">Tervetuloa</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a aria-label="Home">
-<i class="fa fa-home" aria-hidden="true"></i>
-</a>
-<a href="../../index.xml">
-<i class="fa fa-rss" aria-hidden="true"></i>
+<a href="../../index.html">
+<i class="fas fa-home" aria-hidden="true"></i>
 </a>
 <a href="../../about.html" aria-label="About">
 <i class="fa fa-info" aria-hidden="true"></i>
 </a>
-<a href="../../blog.html">CV</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+CV
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="../../citations.html">Citations</a>
+<a href="../../curriculum-vitae.html">Curriculum Vitae Español</a>
+<a href="../../welcome.html">Welcome</a>
+</div>
+</div>
 <a href="https://github.com/halizarraga">
-<i class="fa fa-github" aria-hidden="true"></i>
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://twitter.com/halizarraga">
+<i class="fab fa-twitter" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2414,10 +2501,10 @@ d-appendix d-footnote-list a.footnote-backlink {
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Curriculum vitae</h1>
+<h1>Curriculum vitae Español</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
-<p><p>Ficha curricular general / General Curriculum vitae</p></p>
+<p><p>Ficha curricular general</p></p>
 </div>
 
 <div class="d-byline">
@@ -2433,7 +2520,6 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p>Director Ejecutivo de Centro Ukana I Akumal, A.C. (Centro Ecológico Akumal). <a href="http://www.ceakumal.org;%20twitter@ceakumal">Centro Ecológico Akumal</a> km 104, carr. Puerto Juárez-Tulum, Akumal, Q. Roo. <a href="mailto:director@ceakumal.org" class="email">director@ceakumal.org</a>; <a href="mailto:halizarraga@yahoo.com" class="email">halizarraga@yahoo.com</a></p>
 <p><strong>Fecha de nacimiento</strong>: 1ro de Agosto de 1970. Lugar de nacimiento: Ciudad de México.</p>
 <p>Nacionalidad: Mexicana.</p>
-<p>Domicilio actual y de correspondencia: Petcacab, L-19, Mna-191, Col. Solidaridad. CHETUMAL, Quintana Roo, México. C.P. 77086.</p>
 <p>CURP: LICH700801HDFZBC07</p>
 <p>CÉDULA PROFESIONAL: 2708077</p>
 <h3 id="educación">EDUCACIÓN</h3>
@@ -2533,10 +2619,10 @@ d-appendix d-footnote-list a.footnote-backlink {
   <p class="social_footer">
     <span class="article-sharing">
       Share: &nbsp;
-      <a href="https://twitter.com/share?text=Curriculum%20vitae&amp;url=https%3A%2F%2Fhalizarraga.github.io%2FPagina%2Fposts%2F2021-04-19-curriculum-vitae%2F">
+      <a href="https://twitter.com/share?text=Curriculum%20vitae%20Espa%C3%B1ol&amp;url=https%3A%2F%2Fhalizarraga.github.io%2FPagina%2Fposts%2F2021-04-19-curriculum-vitae%2F">
         <i class="fab fa-twitter"></i>
       </a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fhalizarraga.github.io%2FPagina%2Fposts%2F2021-04-19-curriculum-vitae%2F&amp;title=Curriculum%20vitae">
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fhalizarraga.github.io%2FPagina%2Fposts%2F2021-04-19-curriculum-vitae%2F&amp;title=Curriculum%20vitae%20Espa%C3%B1ol">
         <i class="fab fa-linkedin"></i>
       </a>
     </span>

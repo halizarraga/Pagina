@@ -2,21 +2,24 @@
 title: "Héctor A. Lizárraga Cubedo"
 image: "Hector.jpg"
 links:
-  - label: LinkedIn
+  - label: '<i class="fab fa-linkedin-in fa-3x"></i>'
     url: "https://www.linkedin.com/in/hector-lizarraga-6093a070"
-  - label: Twitter
-    url: "https://www.twitter.com/halizarraga"
-  - label: GitHub
+  - label: '<i class="fab fa-twitter fa-3x"></i>'
+    url: "https://www.twitter.com/ceakumal"
+  - label: '<i class="fab fa-github fa-3x"></i>'
     url: "https://github.com/halizarraga"
-  - label: Email
+  - label: '<i class="far fa-envelope fa-3x"></i>'
     url: "mailto:director@ceakumal.org"
-  - label: Research Gate
+  - label: '<i class="fab fa-researchgate fa-3x"></i>'
     url: "https://www.researchgate.net/profile/Hector-Lizarraga"
+  - label: '<i class="fab fa-instagram fa-3x"></i>'
+    url: "https://www.instagram.com/cea.akumal/"
 site: distill::distill_website
 output:
   postcards::jolla
 ---
- 
+
+
 Soy Oceanólogo con interés en la estadística multivariada y R. Pesquerías, acuicultura, áreas protegidas, cambio climático y biodiversidad. El rey de los deportes, 3 x 3 y otros detalles.
 
 I am an Oceanographer interested in multivariate statistics and R. Fisheries, aquaculture, protected areas, climate change and biodiversity.  King of sports, 3 times 3 and other details.

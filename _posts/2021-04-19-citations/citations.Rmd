@@ -37,7 +37,7 @@ Keywords: Size at maturity; Fecundity; Morphometrics; Homarus gammarus
 ## **H. A. Lizárraga-Cubedo**, I. Tuck, N. Bailey, G. J. Pierce, A. F. Zuur, D. Bova. "Scottish lobster fisheries and environmental variability". ICES Journal of Marine Science, Volume 72, Issue suppl_1, July 2015, Pages i211–i224.
 https://doi.org/10.1093/icesjms/fsu248
 
-Citation:
+
 This article has been reached **5** citations; **185** reads.
 [Research Gate 2](https://www.researchgate.net/publication/275971151_Scottish_lobster_fisheries_and_environmental_variability/stats).
 
@@ -94,8 +94,8 @@ Publisher: 2005
 
 
 
-## **Lizárraga Cubedo, Héctor Antonio**. "RECURSOS NATURALES Y BIODIVERSIDADA. Su protección y formas de participación, Esquemas  de  Conservación,  Protección  y  Aprovechamiento  de  los  Recursos  Naturales  de  Quintana Roo y la Participación Social", p. 41. 
-En: ESTUDIO SOBRE MEDIO AMBIENTE Y DESARROLLO SUSTENTABLE Desde una Perspectiva de Género. Rodolfo vega Hernández (Coord.).  FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C., Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México, PAOTProcuraduría Estatal de Protección al Medio Ambiente y Desarrollo Urbano de Querétaro, PEPMADUQGrupo Ecotech. 2018 
+## **Lizárraga Cubedo, Héctor Antonio**. "RECURSOS NATURALES Y BIODIVERSIDAD. Su protección y formas de participación, Esquemas  de  Conservación,  Protección  y  Aprovechamiento  de  los  Recursos  Naturales  de  Quintana Roo y la Participación Social", p. 41. 
+En: ESTUDIO SOBRE MEDIO AMBIENTE Y DESARROLLO SUSTENTABLE Desde una Perspectiva de Género. Rodolfo Vega Hernández (Coord.).  FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C., Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México, PAOTProcuraduría Estatal de Protección al Medio Ambiente y Desarrollo Urbano de Querétaro, PEPMADUQGrupo Ecotech. 2018 
 
 This article has been reached **0** citations; **148** reads.
 [Research Gate 4](https://www.researchgate.net/publication/323616888_Responsabilidad_ambiental_bajo_la_optica_de_la_equidad_sustantiva_de_genero/stats).

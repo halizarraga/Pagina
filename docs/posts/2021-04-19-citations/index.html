@@ -85,7 +85,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-<title>Webpage: Citations</title>
+<title>Tervetuloa: Citations</title>
 
 <meta property="description" itemprop="description" content="A short description of the citations to the articles I´ve participated in / Se presentan las citas bibliográficas de los artículos en los que he participado.."/>
 
@@ -97,16 +97,16 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <meta name="article:author" content="Hector Lizarraga"/>
 
 <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-<meta property="og:title" content="Webpage: Citations"/>
+<meta property="og:title" content="Tervetuloa: Citations"/>
 <meta property="og:type" content="article"/>
 <meta property="og:description" content="A short description of the citations to the articles I´ve participated in / Se presentan las citas bibliográficas de los artículos en los que he participado.."/>
 <meta property="og:url" content="https://halizarraga.github.io/Pagina/posts/2021-04-19-citations/"/>
 <meta property="og:locale" content="en_US"/>
-<meta property="og:site_name" content="Webpage"/>
+<meta property="og:site_name" content="Tervetuloa"/>
 
 <!--  https://dev.twitter.com/cards/types/summary -->
 <meta property="twitter:card" content="summary"/>
-<meta property="twitter:title" content="Webpage: Citations"/>
+<meta property="twitter:title" content="Tervetuloa: Citations"/>
 <meta property="twitter:description" content="A short description of the citations to the articles I´ve participated in / Se presentan las citas bibliográficas de los artículos en los que he participado.."/>
 <meta property="twitter:url" content="https://halizarraga.github.io/Pagina/posts/2021-04-19-citations/"/>
 
@@ -2138,6 +2138,7 @@ d-appendix {
 
 
 
+
 html {
   /*-- Main font sizes --*/
   --title-size:      50px;
@@ -2146,8 +2147,8 @@ html {
   --aside-size:      12px;
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
-  --title-color:     #000000;
-  --header-color:    rgba(0, 0, 0, 0.8);
+  --title-color:     #138b63;
+  --header-color:    #138b63;
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2155,12 +2156,30 @@ html {
   --heading-font:    "Amiri", serif;
   --mono-font:       "DM Mono", monospace;
   --body-font:       "Bitter", sans-serif;
-  --navbar-font:     "Amiri", serif;
 }
+
+
+/* nav bar */
+
+.distill-site-nav {
+  color: #fff;
+  background-color: #333333;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.distill-site-nav a {
+  font-family: "Amiri", sans-serif;
+  font-weight: 500;
+  font-size: 35px;
+  color: #d9d9d9;
+}
+
 
 /*-- ARTICLE METADATA --*/
 d-byline {
-  --heading-size:    0.6rem;
+  --heading-size:    0.9rem;  /* edited */
   --heading-color:   rgba(0, 0, 0, 0.5);
   --body-size:       0.8rem;
   --body-color:      rgba(0, 0, 0, 0.8);
@@ -2169,7 +2188,8 @@ d-byline {
 /*-- ARTICLE TABLE OF CONTENTS --*/
 .d-contents {
   --heading-size:    18px;
-  --contents-size:   13px;
+  --contents-size:   15px;
+  --font-size:      35px;
 }
 
 /*-- ARTICLE APPENDIX --*/
@@ -2183,24 +2203,80 @@ d-appendix {
 /*-- WEBSITE HEADER + FOOTER --*/
 /* These properties only apply to Distill sites and blogs  */
 
+
+
+.distill-site-header .logo img {
+    display: block;
+    max-height: 25px;
+    width: auto;
+}
+
+.distill-site-header .title {
+    font-size: 25px;
+    min-width: 150px;
+    font-weight: 400;
+}
+
+
+/* https://codepen.io/sdthornton/pen/wBZdXq */
 .distill-site-header {
-  --title-size:       18px;
-  --text-color:       #4fe7db;
-  --text-size:        15px;
-  --hover-color:      white;
-  --bkgd-color:       #063006;
+  box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  font-family: 'Amiri', sans-serif;
+  color: #d9d9d9;
+  background-color: #fcfc39;
+  font-size: 15px;
+  font-weight: 500;
 }
 
 .distill-site-footer {
   --text-color:       #4fe7db;
   --text-size:        15px;
   --hover-color:      white;
-  --bkgd-color:       #063006;
+  --bkgd-color:       #e2e22b;
 }
 
 /*-- Additional custom styles --*/
 /* Add any additional CSS rules below                      */
-</style>
+
+ul > li::marker {
+  color: #063006;
+}
+
+.distill-site-header { 
+  letter-spacing: 2px;
+  font-size: 25px;
+  text-transform: uppercase;
+  --text-size: 35px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+
+.distill-site-header .logo img{
+  max-height: 50px; /* Makes logo bigger, default was 20px */
+}
+
+.distill-site-header .icon img{
+  max-height: 25px; /* Makes icons bigger, default was 20px */
+}
+
+.distill-site-header {
+  padding-top: 2rem;
+}
+
+d-title h1,
+d-article h2,
+.posts-list .description h2,
+.posts-list > h1 {
+    font-weight: 400;
+}
+
+d-appendix {
+  background-color: #e9fce9;
+  border-top: none;
+}</style>
 <style type="text/css">
 /* base style */
 
@@ -2385,25 +2461,36 @@ d-appendix d-footnote-list a.footnote-backlink {
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a class="logo">
-<img src="../../images/rstudio.png" alt="Logo"/>
+<a class="logo" href="http://ceakumal.org">
+<img src="../../LOGO CEA.png" alt="Logo"/>
 </a>
-<a href="../../index.html" class="title">Webpage</a>
+<a href="../../index.html" class="title">Tervetuloa</a>
 <input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a aria-label="Home">
-<i class="fa fa-home" aria-hidden="true"></i>
-</a>
-<a href="../../index.xml">
-<i class="fa fa-rss" aria-hidden="true"></i>
+<a href="../../index.html">
+<i class="fas fa-home" aria-hidden="true"></i>
 </a>
 <a href="../../about.html" aria-label="About">
 <i class="fa fa-info" aria-hidden="true"></i>
 </a>
-<a href="../../blog.html">CV</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+CV
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="../../citations.html">Citations</a>
+<a href="../../curriculum-vitae.html">Curriculum Vitae Español</a>
+<a href="../../welcome.html">Welcome</a>
+</div>
+</div>
 <a href="https://github.com/halizarraga">
-<i class="fa fa-github" aria-hidden="true"></i>
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://twitter.com/halizarraga">
+<i class="fab fa-twitter" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2434,7 +2521,7 @@ d-appendix d-footnote-list a.footnote-backlink {
 <p><strong>Abstract</strong>: Sampling of Homarus gammarus on commercial boats and regular visits to local ports were carried out during 1999–2001 for the Firth of Forth and Hebrides fisheries. Biological data on size, sex, morphometric measurements and egg samples were collected. Size at the onset of sexual maturity (SOM), fecundity and egg development were compared between populations. Techniques that require transformed (Logarithm base e) or untransformed morphometric data, were applied to the data. Lobsters from the Firth of Forth had smaller SOM (♂=80mm carapace length (CL) and ♀=79mm CL) than those from the Hebrides (♂=98 and ♀=110mm CL). Fecundity (x̄=8154 eggs) for the Firth of Forth was lower than for the Hebrides (x̄=14238 eggs). ANCOVA showed no significant differences in the size–fecundity relationship between locations (F1,1=2.62,P&gt;0.05) for lobsters with eggs in which the eye spot index (ESI) was between 0.29 and 0.54, using CL and ESI as co-variates. The reliability of the methods and the resulting estimates are discussed. Keywords: Size at maturity; Fecundity; Morphometrics; Homarus gammarus</p>
 <h2 id="h.-a.-lizárraga-cubedo-i.-tuck-n.-bailey-g.-j.-pierce-a.-f.-zuur-d.-bova.-scottish-lobster-fisheries-and-environmental-variability.-ices-journal-of-marine-science-volume-72-issue-suppl_1-july-2015-pages-i211i224."><strong>H. A. Lizárraga-Cubedo</strong>, I. Tuck, N. Bailey, G. J. Pierce, A. F. Zuur, D. Bova. “Scottish lobster fisheries and environmental variability”. ICES Journal of Marine Science, Volume 72, Issue suppl_1, July 2015, Pages i211–i224.</h2>
 <p><a href="https://doi.org/10.1093/icesjms/fsu248" class="uri">https://doi.org/10.1093/icesjms/fsu248</a></p>
-<p>Citation: This article has been reached <strong>5</strong> citations; <strong>185</strong> reads. <a href="https://www.researchgate.net/publication/275971151_Scottish_lobster_fisheries_and_environmental_variability/stats">Research Gate 2</a>.</p>
+<p>This article has been reached <strong>5</strong> citations; <strong>185</strong> reads. <a href="https://www.researchgate.net/publication/275971151_Scottish_lobster_fisheries_and_environmental_variability/stats">Research Gate 2</a>.</p>
 <p><strong>Abstract</strong> Variability in the fluctuations of two Scottish lobster populations, the Hebrides and Southeast, was investigated from available long dataseries of fishery and environmental variables. In a multivariate context, relationships between selected environmental variables and the fishery data were studied at different spatial and temporal (annual, spring, and autumn) scales and from individual and overall sampled fleet. Multivariate techniques such as cross-correlation function, principal components analysis, and redundancy analysis confirmed that the capture of lobsters was strongly influenced by sea surface temperature, windspeed, and sea level pressure throughout the year, and this dependence affected the duration of the fishery. There were evident differences in the patterns of environmental variables for both regions. In the Hebrides, the total variation (42%) of the interaction fishery-environmental variables for spring and autumn fisheries could be attributed to the environmental variables in an 89%. For the Southeast, spring fishery was more affected by changes in the environment, with a total variation of 34%, from which 85% could be explained by the environmental variables tested, than autumn fishery where catches and catch rates may be more affected by the way individual vessel and sampled fleet operate. Two elements were identified, Hebrides and Southeast spring and autumn fisheries. The Hebrides lobster population is strongly influenced by density-independence processes at all spatial scales. The Southeast fishery is also driven by environmental processes, with higher correlations for recruits with differences at small and large spatial scales.</p>
 <h2 id="h.a.-lizárraga-cubedo-g.j.-pierce-m.b.-santos.-reproduction-of-crustaceans-in-relation-to-fisheries.-in-book-reproductive-biology-of-crustaceans.-ed.-e.-mente.-edition-1st-edition-first-published-2008.-imprint-crc-press.-pages-54."><strong>H.A. Lizárraga-Cubedo</strong>, G.J. Pierce, M.B. Santos. “Reproduction of Crustaceans in Relation to Fisheries”. In Book “Reproductive Biology of Crustaceans”. Ed. E. Mente. Edition 1st Edition, First Published 2008. Imprint CRC Press. Pages 54.</h2>
 <p>eBook ISBN 9780429063961.</p>
@@ -2451,8 +2538,8 @@ d-appendix d-footnote-list a.footnote-backlink {
 <h2 id="lizarraga-cubedo-h.a-tuck-i-bailey-n-pierce-g.j-zuur-a.f-bova-d.-environmentally-caused-variability-in-the-fluctuations-of-the-european-lobster-homarus-gammarus-fishery-in-scottish-coasts."><strong>Lizarraga-Cubedo, H.A</strong>, Tuck, I, Bailey, N, Pierce, G.J, Zuur, A.F, Bova, D. “Environmentally caused variability in the fluctuations of the European lobster, <em>Homarus gammarus</em>, fishery in Scottish coasts”.</h2>
 <p>Source: ICES Council Meeting Papers Material type: computer file Computer file; Format: electronic Publisher: 2005</p>
 <h1 id="capítulo-de-libros-español">Capítulo de libros, Español:</h1>
-<h2 id="lizárraga-cubedo-héctor-antonio.-recursos-naturales-y-biodiversidada.-su-protección-y-formas-de-participación-esquemas-de-conservación-protección-y-aprovechamiento-de-los-recursos-naturales-de-quintana-roo-y-la-participación-social-p.-41."><strong>Lizárraga Cubedo, Héctor Antonio</strong>. “RECURSOS NATURALES Y BIODIVERSIDADA. Su protección y formas de participación, Esquemas de Conservación, Protección y Aprovechamiento de los Recursos Naturales de Quintana Roo y la Participación Social”, p. 41.</h2>
-<p>En: ESTUDIO SOBRE MEDIO AMBIENTE Y DESARROLLO SUSTENTABLE Desde una Perspectiva de Género. Rodolfo vega Hernández (Coord.). FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C., Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México, PAOTProcuraduría Estatal de Protección al Medio Ambiente y Desarrollo Urbano de Querétaro, PEPMADUQGrupo Ecotech. 2018</p>
+<h2 id="lizárraga-cubedo-héctor-antonio.-recursos-naturales-y-biodiversidad.-su-protección-y-formas-de-participación-esquemas-de-conservación-protección-y-aprovechamiento-de-los-recursos-naturales-de-quintana-roo-y-la-participación-social-p.-41."><strong>Lizárraga Cubedo, Héctor Antonio</strong>. “RECURSOS NATURALES Y BIODIVERSIDAD. Su protección y formas de participación, Esquemas de Conservación, Protección y Aprovechamiento de los Recursos Naturales de Quintana Roo y la Participación Social”, p. 41.</h2>
+<p>En: ESTUDIO SOBRE MEDIO AMBIENTE Y DESARROLLO SUSTENTABLE Desde una Perspectiva de Género. Rodolfo Vega Hernández (Coord.). FUNDAp Fundación Universitaria de Derecho, Administración y Política, S. C., Procuraduría Ambiental y del Ordenamiento Territorial de la Ciudad de México, PAOTProcuraduría Estatal de Protección al Medio Ambiente y Desarrollo Urbano de Querétaro, PEPMADUQGrupo Ecotech. 2018</p>
 <p>This article has been reached <strong>0</strong> citations; <strong>148</strong> reads. <a href="https://www.researchgate.net/publication/323616888_Responsabilidad_ambiental_bajo_la_optica_de_la_equidad_sustantiva_de_genero/stats">Research Gate 4</a>.</p>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->

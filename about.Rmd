@@ -1,10 +1,31 @@
 ---
-title: "Acerca de éste sitio / About this site"
+title: "Héctor Lizárraga"
 description: |
   Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!
+author: 
+  - name: Héctor A. Lizárraga Cubedo
+    url: https://www.halizarraga.com
+    affiliation: Centro Ecológico Akumal
+    affiliation_url: http://ceakumal.org
+citation_url: https://halizarraga.github.io/Pagina/
+output: distill::distill_article
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE)
-```
+Hola, soy Héctor y desde 2015 trabajo como Director Ejecutivo del [Centro Ecológico Akumal](http://ceakumal.org), una organización ambiental sin fines de lucro fundada desde 1993. En nuestra organización trabajamos para hacer de Akumal un destino turístico sustentable a través de conservar los ecosistemas costeros.
 
+
+Hi, I am Hector and since 2015 I work as Executive Director of [Centro Ecológico Akumal](http://ceakumal.org), an environmental non-profit organization funded in 1993. My organization´s goal is to work towards the sustainability of this tourist destination by promoting the protection and conservation of the coastal ecosystems.
+
+
+### Contact
+<!-- Add font awesome icons --> 
+
+<div class="mylinks">
+<p style="text-align: center;">
+    <a href="https://github.com/halizarraga" target="_blank" class="fa fa-github"  style="font-size:36px;"></a>
+    <a href="mailto:director@ceakumal.org" target="_blank" class="fa fa-envelope" style="font-size:36px;"></a>
+    <a href="https://www.linkedin.com/in/hector-lizarraga-6093a070" target="_blank" class="fa fa-linkedin" style="font-size:36px;"></a>
+    <a href="https://www.twitter.com/halizarraga" target="_blank" class="fa fa-twitter" style="font-size:36px;"></a>
+    <a href="https://www.researchgate.net/profile/Hector-Lizarraga" target="_blank" class="fab fa-researchgate" style="font-size:36px;"></a>
+</p>
+</div>

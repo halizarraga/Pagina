@@ -2,29 +2,38 @@ name: "."
 base_url: https://halizarraga.github.io/Pagina/
 collections:
   posts:
-    categories: true
-    categories_metadada: true
-    authors_metadata: true
+    categories: false
+    categories_metadada: false
+    authors_metadata: false
     share: [twitter, linkedin]
     citations: false
-title: "Webpage"
+title: "Tervetuloa"
 description: |
   Esta es mi página web / This is my webpage
 output_dir: "docs"
 navbar:
   logo: 
-    image: images/rstudio.png
+    image: LOGO CEA.png
+    href: http://ceakumal.org
+  source_url: true
   right:
-    - text: "Home"
-      icon: fa-home
-    - icon: fa fa-rss
-      href: index.xml
+    - icon: fas fa-home
+      href: index.html
     - text: "About"
       icon: fa-info
       href: about.html
-    - text: "CV"     
+    - text: "CV"
       href: blog.html
-    - icon: fa fa-github
+      menu: 
+          - text: "Citations"
+            href: citations.html
+          - text: "Curriculum Vitae Español"
+            href: curriculum-vitae.html
+          - text: "Welcome"
+            href: welcome.html
+    - icon: fab fa-github
       href: https://github.com/halizarraga
+    - icon: fab fa-twitter
+      href: https://twitter.com/halizarraga
 output: distill::distill_article
 theme: postcards.css

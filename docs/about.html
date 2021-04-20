@@ -85,29 +85,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 </style>
 
   <!--radix_placeholder_meta_tags-->
-  <title>My webpage / mi página web: Acerca de éste sitio / About this site</title>
+  <title>Tervetuloa: Héctor Lizárraga</title>
 
   <meta property="description" itemprop="description" content="Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!"/>
 
 
+  <meta name="article:author" content="Héctor A. Lizárraga Cubedo"/>
 
   <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
-  <meta property="og:title" content="My webpage / mi página web: Acerca de éste sitio / About this site"/>
+  <meta property="og:title" content="Tervetuloa: Héctor Lizárraga"/>
   <meta property="og:type" content="article"/>
   <meta property="og:description" content="Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!"/>
   <meta property="og:locale" content="en_US"/>
-  <meta property="og:site_name" content="My webpage / mi página web"/>
+  <meta property="og:site_name" content="Tervetuloa"/>
 
   <!--  https://dev.twitter.com/cards/types/summary -->
   <meta property="twitter:card" content="summary"/>
-  <meta property="twitter:title" content="My webpage / mi página web: Acerca de éste sitio / About this site"/>
+  <meta property="twitter:title" content="Tervetuloa: Héctor Lizárraga"/>
   <meta property="twitter:description" content="Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!"/>
 
   <!--/radix_placeholder_meta_tags-->
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description"]}},"value":[{"type":"character","attributes":{},"value":["Acerca de éste sitio / About this site"]},{"type":"character","attributes":{},"value":["Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","citation_url","output"]}},"value":[{"type":"character","attributes":{},"value":["Héctor Lizárraga"]},{"type":"character","attributes":{},"value":["Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url","affiliation","affiliation_url"]}},"value":[{"type":"character","attributes":{},"value":["Héctor A. Lizárraga Cubedo"]},{"type":"character","attributes":{},"value":["https://www.halizarraga.com"]},{"type":"character","attributes":{},"value":["Centro Ecológico Akumal"]},{"type":"character","attributes":{},"value":["http://ceakumal.org"]}]}]},{"type":"character","attributes":{},"value":["https://halizarraga.github.io/Pagina/"]},{"type":"character","attributes":{},"value":["distill::distill_article"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2127,6 +2128,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 
 
+
   html {
     /*-- Main font sizes --*/
     --title-size:      50px;
@@ -2135,8 +2137,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --aside-size:      12px;
     --fig-cap-size:    13px;
     /*-- Main font colors --*/
-    --title-color:     #000000;
-    --header-color:    rgba(0, 0, 0, 0.8);
+    --title-color:     #138b63;
+    --header-color:    #138b63;
     --body-color:      rgba(0, 0, 0, 0.8);
     --aside-color:     rgba(0, 0, 0, 0.6);
     --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -2144,12 +2146,30 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     --heading-font:    "Amiri", serif;
     --mono-font:       "DM Mono", monospace;
     --body-font:       "Bitter", sans-serif;
-    --navbar-font:     "Amiri", serif;
   }
+
+
+  /* nav bar */
+
+  .distill-site-nav {
+    color: #fff;
+    background-color: #333333;
+    font-size: 25px;
+    font-weight: 500;
+  }
+
+
+  .distill-site-nav a {
+    font-family: "Amiri", sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+    color: #d9d9d9;
+  }
+
 
   /*-- ARTICLE METADATA --*/
   d-byline {
-    --heading-size:    0.6rem;
+    --heading-size:    0.9rem;  /* edited */
     --heading-color:   rgba(0, 0, 0, 0.5);
     --body-size:       0.8rem;
     --body-color:      rgba(0, 0, 0, 0.8);
@@ -2158,7 +2178,8 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- ARTICLE TABLE OF CONTENTS --*/
   .d-contents {
     --heading-size:    18px;
-    --contents-size:   13px;
+    --contents-size:   15px;
+    --font-size:      35px;
   }
 
   /*-- ARTICLE APPENDIX --*/
@@ -2172,24 +2193,80 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   /*-- WEBSITE HEADER + FOOTER --*/
   /* These properties only apply to Distill sites and blogs  */
 
+
+
+  .distill-site-header .logo img {
+      display: block;
+      max-height: 25px;
+      width: auto;
+  }
+
+  .distill-site-header .title {
+      font-size: 25px;
+      min-width: 150px;
+      font-weight: 400;
+  }
+
+
+  /* https://codepen.io/sdthornton/pen/wBZdXq */
   .distill-site-header {
-    --title-size:       18px;
-    --text-color:       #4fe7db;
-    --text-size:        15px;
-    --hover-color:      white;
-    --bkgd-color:       #063006;
+    box-shadow: 0 14px 20px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    font-family: 'Amiri', sans-serif;
+    color: #d9d9d9;
+    background-color: #fcfc39;
+    font-size: 15px;
+    font-weight: 500;
   }
 
   .distill-site-footer {
     --text-color:       #4fe7db;
     --text-size:        15px;
     --hover-color:      white;
-    --bkgd-color:       #063006;
+    --bkgd-color:       #e2e22b;
   }
 
   /*-- Additional custom styles --*/
   /* Add any additional CSS rules below                      */
-  </style>
+
+  ul > li::marker {
+    color: #063006;
+  }
+
+  .distill-site-header { 
+    letter-spacing: 2px;
+    font-size: 25px;
+    text-transform: uppercase;
+    --text-size: 35px;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+    font-weight: 300;
+  }
+
+  .distill-site-header .logo img{
+    max-height: 50px; /* Makes logo bigger, default was 20px */
+  }
+
+  .distill-site-header .icon img{
+    max-height: 25px; /* Makes icons bigger, default was 20px */
+  }
+
+  .distill-site-header {
+    padding-top: 2rem;
+  }
+
+  d-title h1,
+  d-article h2,
+  .posts-list .description h2,
+  .posts-list > h1 {
+      font-weight: 400;
+  }
+
+  d-appendix {
+    background-color: #e9fce9;
+    border-top: none;
+  }</style>
   <style type="text/css">
   /* base style */
 
@@ -2365,7 +2442,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--radix_placeholder_front_matter-->
 
 <script id="distill-front-matter" type="text/json">
-{"title":"Acerca de éste sitio / About this site","description":"Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!","authors":[]}
+{"title":"Héctor Lizárraga","description":"Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!","authors":[{"author":"Héctor A. Lizárraga Cubedo","authorURL":"https://www.halizarraga.com","affiliation":"Centro Ecológico Akumal","affiliationURL":"http://ceakumal.org","orcidID":""}]}
 </script>
 
 <!--/radix_placeholder_front_matter-->
@@ -2373,15 +2450,36 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <header class="header header--fixed" role="banner">
 <nav class="distill-site-nav distill-site-header">
 <div class="nav-left">
-<a href="index.html" class="title">My webpage / mi página web</a>
+<a class="logo" href="http://ceakumal.org">
+<img src="LOGO%20CEA.png" alt="Logo"/>
+</a>
+<a href="index.html" class="title">Tervetuloa</a>
+<input id="distill-search" class="nav-search hidden" type="text" placeholder="Search..."/>
 </div>
 <div class="nav-right">
-<a href="index.html" aria-label="Home">
-<i class="fa fa-home" aria-hidden="true"></i>
+<a href="index.html">
+<i class="fas fa-home" aria-hidden="true"></i>
 </a>
-<a href="about.html">About</a>
+<a href="about.html" aria-label="About">
+<i class="fa fa-info" aria-hidden="true"></i>
+</a>
+<div class="nav-dropdown">
+<button class="nav-dropbtn">
+CV
+ 
+<span class="down-arrow">&#x25BE;</span>
+</button>
+<div class="nav-dropdown-content">
+<a href="citations.html">Citations</a>
+<a href="curriculum-vitae.html">Curriculum Vitae Español</a>
+<a href="welcome.html">Welcome</a>
+</div>
+</div>
 <a href="https://github.com/halizarraga">
-<i class="fa fa-github" aria-hidden="true"></i>
+<i class="fab fa-github" aria-hidden="true"></i>
+</a>
+<a href="https://twitter.com/halizarraga">
+<i class="fab fa-twitter" aria-hidden="true"></i>
 </a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2392,14 +2490,28 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <!--/radix_placeholder_site_before_body-->
 
 <div class="d-title">
-<h1>Acerca de éste sitio / About this site</h1>
+<h1>Héctor Lizárraga</h1>
 <!--radix_placeholder_categories-->
 <!--/radix_placeholder_categories-->
 <p><p>Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!</p></p>
 </div>
 
+<div class="d-byline">
+  Héctor A. Lizárraga Cubedo <a href="https://www.halizarraga.com" class="uri">https://www.halizarraga.com</a> (Centro Ecológico Akumal)<a href="http://ceakumal.org" class="uri">http://ceakumal.org</a>
+  
+
+</div>
 
 <div class="d-article">
+<p>Hola, soy Héctor y desde 2015 trabajo como Director Ejecutivo del <a href="http://ceakumal.org">Centro Ecológico Akumal</a>, una organización ambiental sin fines de lucro fundada desde 1993. En nuestra organización trabajamos para hacer de Akumal un destino turístico sustentable a través de conservar los ecosistemas costeros.</p>
+<p>Hi, I am Hector and since 2015 I work as Executive Director of <a href="http://ceakumal.org">Centro Ecológico Akumal</a>, an environmental non-profit organization funded in 1993. My organization´s goal is to work towards the sustainability of this tourist destination by promoting the protection and conservation of the coastal ecosystems.</p>
+<h3 id="contact">Contact</h3>
+<!-- Add font awesome icons -->
+<div class="mylinks">
+<p style="text-align: center;">
+<a href="https://github.com/halizarraga" target="_blank" class="fa fa-github"  style="font-size:36px;"></a> <a href="mailto:director@ceakumal.org" target="_blank" class="fa fa-envelope" style="font-size:36px;"></a> <a href="https://www.linkedin.com/in/hector-lizarraga-6093a070" target="_blank" class="fa fa-linkedin" style="font-size:36px;"></a> <a href="https://www.twitter.com/halizarraga" target="_blank" class="fa fa-twitter" style="font-size:36px;"></a> <a href="https://www.researchgate.net/profile/Hector-Lizarraga" target="_blank" class="fab fa-researchgate" style="font-size:36px;"></a>
+</p>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
