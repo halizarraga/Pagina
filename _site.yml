@@ -21,12 +21,8 @@ navbar:
       href: index.html
     - icon: fa-info
       href: about.html
-    - icon: fa-quote-right
-      href: citations.html
-    - text: "CV-Es"
-      href: curriculum-vitae.html
-    - icon: fa-user
-      href: welcome.html
+    - text: "CV"
+      href: blog.html
     - icon: fab fa-github
       href: https://github.com/halizarraga
     - icon: fab fa-twitter
