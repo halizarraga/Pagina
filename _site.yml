@@ -19,18 +19,14 @@ navbar:
   right:
     - icon: fas fa-home
       href: index.html
-    - text: "About"
-      icon: fa-info
+    - icon: fa-info
       href: about.html
-    - text: "CV"
-      href: blog.html
-      menu: 
-        - text: "Citations"
-          href: citations.html
-        - text: "Curriculum Vitae Español"
-          href: curriculum-vitae.html
-        - text: "Welcome"
-          href: welcome.html
+    - icon: fa-quote-right
+      href: citations.html
+    - text: "CV-Es"
+      href: curriculum-vitae.html
+    - icon: fa-user
+      href: welcome.html
     - icon: fab fa-github
       href: https://github.com/halizarraga
     - icon: fab fa-twitter
