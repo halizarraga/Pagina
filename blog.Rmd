@@ -1,4 +1,8 @@
 ---
 title: "Posts" 
-listing: posts 
+listing:
+  posts:
+   - 2021-04-19-citations
+   - 2021-04-19-curriculum-vitae
+   - 2021-04-19-welcome
 ---
