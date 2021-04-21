@@ -1,5 +1,6 @@
 name: "."
 base_url: https://halizarraga.github.io/Pagina/
+output_dir: docs
 collections:
   posts:
     categories: true
@@ -10,7 +11,6 @@ collections:
 title: "Tervetuloa"
 description: |
   Esta es mi página web / This is my webpage
-output_dir: "docs"
 navbar:
   logo: 
     image: LOGO CEA.png
@@ -22,8 +22,6 @@ navbar:
     - text: "About"
       icon: fa-info
       href: about.html
-    - icon: ai ai-cv
-      href: blog.html
     - text: "CV"
       href: blog.html
       menu: 
@@ -37,5 +35,6 @@ navbar:
       href: https://github.com/halizarraga
     - icon: fab fa-twitter
       href: https://twitter.com/halizarraga
-output: distill::distill_article
+output: 
+  distill::distill_article
 theme: postcards.css
