@@ -5,9 +5,7 @@ description: |
 author:
   - name: Hector Lizarraga
 date: 04-19-2021
-output:
-  distill::distill_article:
-    self_contained: false
+output: distill::distill_article
 ---
 
 
