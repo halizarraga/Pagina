@@ -1,5 +1,6 @@
 ---
 title: "Posts" 
+search: false
 listing:
   posts:
    - 2021-04-19-citations

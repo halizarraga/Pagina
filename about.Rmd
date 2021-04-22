@@ -1,5 +1,6 @@
 ---
 title: "Héctor Lizárraga"
+search: false
 description: |
   Bienvenido a mi sitio web, aquí plasmo gran parte de mi quehacer diario / Welcome to the website. Herein I include most of my daily work!
 author: 

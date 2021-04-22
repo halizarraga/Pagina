@@ -8,19 +8,21 @@ collections:
     authors_metadata: false
     share: [twitter, linkedin]
     citations: false
-title: "Tervetuloa"
+title: "Héctor Lizárraga"
 description: |
-  Esta es mi página web / This is my webpage
+  Héctor A. Lizárraga Cubedo
 navbar:
   logo: 
     image: LOGO CEA.png
     href: http://ceakumal.org
   source_url: true
-  right:
+  search: false
+  left:
     - icon: fas fa-home
       href: index.html
     - icon: fa-info
       href: about.html
+  right:
     - text: "CV"
       href: blog.html
     - icon: fab fa-github

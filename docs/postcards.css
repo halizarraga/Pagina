@@ -26,7 +26,7 @@ html {
   --fig-cap-size:    13px;
   /*-- Main font colors --*/
   --title-color:     #138b63;
-  --header-color:    #138b63;
+  --header-color:    #1cb0ce;
   --body-color:      rgba(0, 0, 0, 0.8);
   --aside-color:     rgba(0, 0, 0, 0.6);
   --fig-cap-color:   rgba(0, 0, 0, 0.6);
@@ -36,14 +36,19 @@ html {
   --body-font:       "Bitter", sans-serif;
 }
 
+/* main page */
+.box {
+  border: none;
+}
+
 
 /* nav bar */
 
 .distill-site-nav {
   color: #fff;
-  background-color: #333333;
+  background-color: #fff;
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 
@@ -83,16 +88,12 @@ d-appendix {
 
 
 
-.distill-site-header .logo img {
-    display: block;
-    max-height: 25px;
-    width: auto;
-}
 
 .distill-site-header .title {
     font-size: 25px;
     min-width: 150px;
     font-weight: 400;
+    padding-top: 0.5rem;
 }
 
 
@@ -102,8 +103,10 @@ d-appendix {
   font-family: 'Amiri', sans-serif;
   color: #d9d9d9;
   background-color: #fcfc39;
+  --hover-color:      #787878;                   /* edited */
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 400;
+  padding-top: 0.5rem;
 }
 
 .distill-site-footer {
@@ -123,12 +126,13 @@ ul > li::marker {
 .distill-site-header { 
   letter-spacing: 2px;
   font-size: 25px;
-  text-transform: uppercase;
-  --text-size: 35px;
+  text-transform: none;
+  --text-size: 25px;
+  padding-top: 0.5rem;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  letter-spacing: 1px;
+  letter-spacing: 3px;
   font-weight: 300;
 }
 
@@ -137,11 +141,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .distill-site-header .icon img{
-  max-height: 25px; /* Makes icons bigger, default was 20px */
+  max-height: 20px; /* Makes icons bigger, default was 20px */
 }
 
 .distill-site-header {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
 }
 
 d-title h1,
